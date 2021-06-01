@@ -1,0 +1,100 @@
+@charset "utf-8";
+@font-face{font-family:noto;font-weight:200;
+    src:url('../fonts/NotoSans-Light.eot');/* ie호환성 */
+    src:url('../fonts/NotoSans-Light.eot?#iefix') format('embedded-opentype');
+    src:local('NotoSans-Light'),
+        url('../fonts/NotoSans-Light.woff2') format('woff2'),
+        url('../fonts/NotoSans-Light.woff') format('woff'),
+        url('../fonts/NotoSans-Light.otf') format('truetype')
+}
+@font-face{font-family:noto;font-weight:300;
+    src:url('../fonts/NotoSans-DemiLight.eot');/* ie호환성 */
+    src:url('../fonts/NotoSans-DemiLight.eot?#iefix') format('embedded-opentype');
+    src:local('NotoSans-DemiLight'),
+        url('../fonts/NotoSans-DemiLight.woff2') format('woff2'),
+        url('../fonts/NotoSans-DemiLight.woff') format('woff'),
+        url('../fonts/NotoSans-DemiLight.otf') format('truetype')
+}
+@font-face{font-family:noto;font-weight:400;
+    src:url('../fonts/NotoSans-Regular.eot');/* ie호환성 */
+    src:url('../fonts/NotoSans-Regular.eot?#iefix') format('embedded-opentype');
+    src:local('NotoSans-Regular'),
+        url('../fonts/NotoSans-Regular.woff2') format('woff2'),
+        url('../fonts/NotoSans-Regular.woff') format('woff'),
+        url('../fonts/NotoSans-Regular.otf') format('truetype')
+}
+@font-face{font-family:noto;font-weight:500;
+    src:url('../fonts/NotoSans-Medium.eot');/* ie호환성 */
+    src:url('../fonts/NotoSans-Medium.eot?#iefix') format('embedded-opentype');
+    src:local('NotoSans-Medium'),
+        url('../fonts/NotoSans-Medium.woff2') format('woff2'),
+        url('../fonts/NotoSans-Medium.woff') format('woff'),
+        url('../fonts/NotoSans-Medium.otf') format('truetype')
+}
+@font-face{font-family:noto;font-weight:600;
+    src:url('../fonts/NotoSans-Bold.eot');/* ie호환성 */
+    src:url('../fonts/NotoSans-Bold.eot?#iefix') format('embedded-opentype');
+    src:local('NotoSans-Bold'),
+        url('../fonts/NotoSans-Bold.woff2') format('woff2'),
+        url('../fonts/NotoSans-Bold.woff') format('woff'),
+        url('../fonts/NotoSans-Bold.otf') format('truetype')
+}
+@font-face{font-family:noto;font-weight:800;
+    src:url('../fonts/NotoSans-Black.eot');/* ie호환성 */
+    src:url('../fonts/NotoSans-Black.eot?#iefix') format('embedded-opentype');
+    src:local('NotoSans-Black'),
+        /* url('../fonts/NotoSans-Black.woff2') format('woff2'),*/
+        url('../fonts/NotoSans-Black.woff') format('woff'),
+        url('../fonts/NotoSans-Black.otf') format('truetype')
+}
+
+/*common*/
+html,body{
+	height:100%;
+	-webkit-text-size-adjust:none;
+	word-wrap: break-word;
+	word-break: keep-all;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,button{margin:0;padding:0;}
+body,h1,h2,h3,h4,h5,h6,th,td,input,select,textarea{margin:0;padding:0;color:#404040;font-size:16px;font-family:'noto','돋움',Dotum,Helvetica,Verdana,Arial,sans-serif;letter-spacing:-0.05em;}
+h1,h2,h3,h4,h5,h6{font-size:12pt;font-weight:600;}
+ul,ol,dl,dt,dd{margin:0;padding:0;list-style:none;}
+img{border:none;}
+fieldset{border:none;}
+legend{display:none;}
+p{margin:0;}
+table{border-collapse:collapse;border-spacing:0;}
+table caption{overflow:hidden;position:relative;line-height:1px;font-size:1px;text-indent:-30000px;}
+.hidden{overflow:hidden;position:absolute;line-height:1px;font-size:1px;text-indent:-30000px;}
+a{color:#090909;text-decoration:none}
+a:hover{text-decoration:underline}
+em,address{font-style:normal}
+button,label{cursor:pointer}
+button{border:0;background:transparent}
+button::-moz-focus-inner{padding:0;border:0}
+input[type=text],input[type=password],input[type=image],textarea,button{font-family:noto,"굴림",Gulim,"Apple SD Gothic Neo",Sans-serif;-webkit-appearance:none;-webkit-text-size-adjust:none;border-radius:0;-webkit-border-radius:0}
+select{font-family:noto,"굴림",Gulim,"Apple SD Gothic Neo",Sans-serif;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+select::-ms-expand{display:none}
+textarea{overflow:auto}
+hr{border:none}
+legend{*width:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+.blind,legend,caption span{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0;white-space:nowrap;text-indent:-999em}
+.input_txt,textarea{*margin:-1px 0}
+iframe{width:100%}
+.blind{position:absolute;overflow:hidden;clip:rect(0 0 0 0);margin:-1px;width:1px;height:1px}
+.text_over{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+input::placeholder,
+input:-ms-input-placeholder{color:#767676;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus{
+  box-shadow: 0 0 0px 1000px #fff inset;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
